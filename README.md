@@ -490,6 +490,15 @@ container_memory_usage_bytes
 | cAdvisor not starting | Ensure `/dev/kmsg` exists on host |
 | Node Exporter missing metrics | Check `pid: host` is set in compose file |
 
+## Basic Troubleshooting
+
+This is where you stand out:
+
+Target not showing → check /targets
+Metrics missing → check exporter
+High memory → retention tuning
+Wrong data → query issue
+
 ### Check container logs
 
 ```bash
